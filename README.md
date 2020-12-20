@@ -1,10 +1,10 @@
 # CG.Mvvm: 
 
 ---
-[![Build Status](https://dev.azure.com/codegator/CG.Mvvm/_apis/build/status/CodeGator.CG.Mvvm?branchName=main)](https://dev.azure.com/codegator/CG.Mvvm/_build/latest?definitionId=31&branchName=main)
+[![Build Status](https://dev.azure.com/codegator/CG.Mvvm/_apis/build/status/CodeGator.CG.Mvvm?branchName=main)](https://dev.azure.com/codegator/CG.Mvvm/_build/latest?definitionId=40&branchName=main)
 [![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Mvvm/index.html)
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Mvvm.svg?style=flat)](https://nuget.org/packages/CG.Mvvm)
-![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Mvvm/31)
+![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Mvvm/40)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Mvvm/discussions)
 
 #### What does it do?
