@@ -55,7 +55,7 @@ namespace CG.Mvvm.ViewModels
         /// <param name="backingField">The backing field associated with the property.</param>
         /// <param name="value">The value to set in the property.</param>
         /// <param name="propertyName">The name of the property.</param>
-        protected void SetValue<T>(
+        protected virtual void SetValue<T>(
             ref T backingField, 
             T value, 
             [CallerMemberName] string propertyName = null
