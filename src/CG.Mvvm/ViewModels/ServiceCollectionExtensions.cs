@@ -24,23 +24,22 @@ namespace Microsoft.Extensions.DependencyInjection
         /// <param name="serviceCollection">The service collection to use for
         /// the operation.</param>
         /// <param name="assemblyWhiteList">An optional white list, for filtering
-        /// the assemblies used in the operation.
+        /// the assemblies used in the operation.</param>
         /// <param name="assemblyBlackList">An optional black list, for filtering
-        /// the assemblies used in the operation.
+        /// the assemblies used in the operation.</param>
+        /// <param name="serviceLifetime">The service lifetime to use for the operation.</param>
         /// <returns>The value of the <paramref name="serviceCollection"/>
         /// parameter, for chaining calls together.</returns>
         /// <remarks>
         /// This idea, with this method, is to dynamically locate and register
-        /// any concrete view-model types along with their corresponding service
-        /// types. This way, we avoid having view-model registration turn into a 
-        /// maintenance issue, and (hopefully) the whole process becomes a little 
-        /// more testable since we can swap out VM instance(s) in our unit test 
-        /// fixtures.
+        /// any concrete view-model types. This way, we avoid having view-model 
+        /// registration process turn into a maintenance issue.
         /// </remarks>
         public static IServiceCollection AddViewModels(
             this IServiceCollection serviceCollection,
             string assemblyWhiteList = "",
-            string assemblyBlackList = "Microsoft.*,System.*,netstandard"
+            string assemblyBlackList = "Microsoft.*,System.*,netstandard",
+            ServiceLifetime serviceLifetime = ServiceLifetime.Transient
             )
         {
             // Validate the parameters before attempting to use them.
@@ -90,17 +89,19 @@ namespace Microsoft.Extensions.DependencyInjection
                 if (null != serviceType)
                 {
                     // Register the view-model type with the service type.
-                    serviceCollection.AddScoped(
-                        serviceType,
-                        impType
+                    serviceCollection.Add(
+                        serviceType, 
+                        impType, 
+                        serviceLifetime
                         );
                 }
                 else
                 {
                     // Otherwise, as a fall-back, register the view-model alone, 
                     //   without a corresponding service type.
-                    serviceCollection.AddScoped(
-                        impType
+                    serviceCollection.Add(
+                        impType,
+                        serviceLifetime
                         );
                 }
             }
