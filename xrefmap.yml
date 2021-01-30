@@ -249,12 +249,12 @@ references:
   commentId: T:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
   fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
   nameWithType: ServiceCollectionExtensions
-- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddViewModels(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String)
-  name: AddViewModels(IServiceCollection, String, String)
-  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddViewModels_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_String_System_String_
-  commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddViewModels(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String)
-  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddViewModels(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.String, System.String)
-  nameWithType: ServiceCollectionExtensions.AddViewModels(IServiceCollection, String, String)
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddViewModels(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  name: AddViewModels(IServiceCollection, String, String, ServiceLifetime)
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddViewModels_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_String_System_String_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
+  commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddViewModels(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddViewModels(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.String, System.String, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  nameWithType: ServiceCollectionExtensions.AddViewModels(IServiceCollection, String, String, ServiceLifetime)
 - uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddViewModels*
   name: AddViewModels
   href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddViewModels_
