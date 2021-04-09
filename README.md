@@ -13,7 +13,7 @@ The package contains model view view-model extensions used by other CodeGator pa
 #### Commonly used types:
 
 #### What platform(s) does it support?
-* .NET Standard 2.0 or higher
+* .NET 5.x or higher
 
 #### How do I install it?
 The binary is hosted on [NuGet](https://www.nuget.org/packages/CG.Mvvm). To install the package using the NuGet package manager:
