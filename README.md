@@ -6,6 +6,7 @@
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Mvvm.svg?style=flat)](https://nuget.org/packages/CG.Mvvm)
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Mvvm/40)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Mvvm/discussions)
+[![CG.Mvvm on fuget.org](https://www.fuget.org/packages/CG.Mvvm/badge.svg)](https://www.fuget.org/packages/CG.Mvvm)
 
 #### What does it do?
 The package contains model view view-model extensions used by other CodeGator packages.
@@ -22,6 +23,8 @@ PM> Install-Package CG.Mvvm
 
 #### How do I contact you?
 If you've spotted a bug in the code please use the project Issues [HERE](https://github.com/CodeGator/CG.Mvvm/issues)
+
+We have a discussion group [HERE](https://github.com/CodeGator/CG.Mvvm/discussions)
 
 #### Is there any documentation?
 There is developer documentation [HERE](https://codegator.github.io/CG.Mvvm/)
