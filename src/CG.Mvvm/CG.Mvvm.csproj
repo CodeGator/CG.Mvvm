@@ -6,7 +6,7 @@
 	<PackageIcon>packageDefaultIcon-50x50.png</PackageIcon>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	<Copyright>Copyright © 2018 - 2021 by CodeGator. All rights reserved.</Copyright>
-	<Description>This package contains client side Blazor extensions used by other CodeGator packages. 
+	<Description>This package contains Model-View View-Model extensions used by other CodeGator packages. 
 
 Platforms supported:
     .NET 5.x or above</Description>

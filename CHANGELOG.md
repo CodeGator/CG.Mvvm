@@ -4,6 +4,7 @@
 ## 2021.3
 
 * bug fixes
+* I edited the package description
 
 ## 2021.2
 
