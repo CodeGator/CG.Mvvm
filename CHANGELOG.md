@@ -1,6 +1,11 @@
 # CG.Mvvm
 ---
 
+## 2022.1
+
+* I changed the runtime to .NET 6.0
+* bug fixes
+
 ## 2021.3
 
 * bug fixes
